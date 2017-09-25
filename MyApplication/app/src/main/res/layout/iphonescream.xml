@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/xianer"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="12:00"
+        android:textColor="#800000"
+        android:textSize="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7月20日 星期四"
+        android:textSize="30dp"
+        android:textColor="#A0522D"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="140dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="丁酉年六月廿七"
+        android:textSize="20dp"
+        android:textColor="#A52A2A"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="101dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上滑屏幕按钮解锁"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="15dp"/>
+
+</RelativeLayout>

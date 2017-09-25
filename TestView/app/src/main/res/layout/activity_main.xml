@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zzpro.testview.MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <Button
+           android:id="@+id/button_1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TestProgressBar"
+           android:onClick="Test_ProgressBar"
+           android:textSize="20dp"
+           android:layout_marginLeft="80dp"/>
+
+       <Button
+           android:id="@+id/button_2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TestAlertDialog"
+           android:onClick="Test_AlertDialog"
+           android:textSize="21dp"
+           android:layout_marginLeft="80dp"/>
+
+
+       <Button
+           android:id="@+id/button_3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TestProressDialog"
+           android:onClick="Test_ProgressDialog"
+           android:textSize="21dp"
+           android:layout_marginLeft="68dp"/>
+
+       <ProgressBar
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:visibility="invisible"
+           android:layout_marginTop="150dp"
+           android:id="@+id/progressbar_1"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:max="100"
+           android:layout_marginLeft="150dp"/>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

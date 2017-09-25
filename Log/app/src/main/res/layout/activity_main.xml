@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zzpro.log.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名...."
+            android:id="@+id/username"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码...."
+            android:password="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/userpsw"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否记住密码"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/cb_box"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="登录"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:onClick="onClick_1"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
